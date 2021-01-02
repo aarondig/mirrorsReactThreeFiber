@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/Metropolis-ExtraBold.otf')  format('truetype');
+}
+
+#About {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    position: fixed;
+    /* top: 0; */
+    z-index: 1;
+}
+#background {
+    font-family: Avenir;
+    font-size: 100px;
+    color: black;
+}
