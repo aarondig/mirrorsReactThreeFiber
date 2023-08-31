@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {
-  HashRouter as Router,Routes,
+  BrowserRouter as Router,Routes,
   Route
 } from 'react-router-dom';
 
 ReactDOM.render(
-  <Router>
+  <Router basename='/mirrorsReactThreeFiber'>
 <Routes>
-    <Route path='/mirrorsReactThreeFiber' element={<App/>} />
+    <Route path='/' element={<App/>} />
     </Routes>
   </Router>,
   document.getElementById('root')
