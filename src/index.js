@@ -10,7 +10,7 @@ import {
 ReactDOM.render(
   <Router>
 <Routes>
-    <Route path='/' element={<App/>} />
+    <Route path='/mirrorsReactThreeFiber' element={<App/>} />
     </Routes>
   </Router>,
   document.getElementById('root')
